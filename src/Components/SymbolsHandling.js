@@ -126,8 +126,5 @@ return (
 
 }
 
-<<<<<<< HEAD
  export default SymbolsHandling;
-=======
- export default SymbolsHandling;
->>>>>>> Fixed
+
