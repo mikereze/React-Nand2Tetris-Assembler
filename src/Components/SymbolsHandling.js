@@ -58,6 +58,7 @@ const Labelhandling = ({content}) => {
      }
  
      for(var x=0;x<content.length;x++){
+
       if(content[x].includes('(')){
         
          const extracted = extractor(content[x]);
@@ -68,6 +69,7 @@ const Labelhandling = ({content}) => {
           content_updated.push(content[x]);
       }
  }  
+
  return (
      <div>
      <Variablehandlng content= {content_updated}/>
@@ -124,4 +126,8 @@ return (
 
 }
 
+<<<<<<< HEAD
  export default SymbolsHandling;
+=======
+ export default SymbolsHandling;
+>>>>>>> Fixed

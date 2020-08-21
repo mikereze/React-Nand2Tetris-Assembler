@@ -15,15 +15,21 @@ const Commenthandling = ({content}) => {
             if(singleLine.includes("//")){
                     const index = singleLine.indexOf("/");
                     content_main.push((singleLine.slice(0,index)).trim());
+
                     console.log("Check mike");
             }
             else{
                 content_main.push(singleLine.trim());
                 console.log("Check too");
+
             }
+
 
            }
         }
+
+        console.log("This is from Comment LAst",content_main)
+
     return (
             <div>
             <SymbolsHandling content={content_main}/>
