@@ -58,7 +58,6 @@ const Labelhandling = ({content}) => {
      }
  
      for(var x=0;x<content.length;x++){
-         // console.log("THis is are the Labels baby",content[x])
       if(content[x].includes('(')){
         
          const extracted = extractor(content[x]);
@@ -69,7 +68,6 @@ const Labelhandling = ({content}) => {
           content_updated.push(content[x]);
       }
  }  
- // console.log("This is the Handled Label Bitches",content_updated,symbols)
  return (
      <div>
      <Variablehandlng content= {content_updated}/>
